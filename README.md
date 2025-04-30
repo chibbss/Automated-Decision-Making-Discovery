@@ -58,6 +58,8 @@ If someone wants to test without setting up CrewAI + ngrok:
 1. Copy the Google Sheet template
 2. Replace HTTP call in Make.com with a custom webhook that returns mocked CrewAI responses.
 3. Continue automation with real logic (parsing, Sheets, etc.)
+4. You are also free to test the crew of agentic ai to see its response and update the logic to what best suits your needs, making it a very malleable prototype and approach.
+5. 
 
 🔢 Deliverables:
 Google Sheets DB:
