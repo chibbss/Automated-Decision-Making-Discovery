@@ -59,16 +59,18 @@ If someone wants to test without setting up CrewAI + ngrok:
 2. Replace HTTP call in Make.com with a custom webhook that returns mocked CrewAI responses.
 3. Continue automation with real logic (parsing, Sheets, etc.)
 
-🔢 Deliverables
-• Google Sheets DB:
-• company_profiles
-• decision_makers_raw
-• verified_leads
-• connection_requests
-• follow_up_messages
-• Make.com Scenario Link: [Insert Link Here]
-• Loom Walkthrough: [Insert Link Here]
-• Google Doc: This document
+🔢 Deliverables:
+Google Sheets DB:
+company_profiles
+decision_makers_raw
+verified_leads
+connection_requests
+follow_up_messages
+Make.com Scenario Link: [Insert Link Here]
+Make Scenario .json File: Included in GitHub repo
+GitHub Repo: https://github.com/chibbss/Automated-Decision-Making-Discovery
+Loom Walkthrough: [Insert Link Here]
+Google Doc: This document
 
 ✨ Notes on Agentic Design
 • CrewAI agents are modular and task-specific
