@@ -1,0 +1,36 @@
+research_company_task:
+  description: >
+    Research the following {company_names} and provide comprehensive information including industry, 
+    size, location, and business focus.
+  agent: company_researcher
+  expected_output: >
+    A list of dictionaries where each dictionary contains: company name, industry, size, headquarters location,
+    and business focus.
+
+find_decision_makers_task:
+  description: >
+    Find key decision makers at {company_names} based on research data. Initially, identify 
+    top decision makers such as C-level executives, Founders, VPs, and Directors. Then, 
+    use advanced search techniques and the avaialable tool given to the agent and task to uncover additional decision-makers based on role/title 
+    within {company_names}. Capture their names, roles, LinkedIn URLs, and common email patterns.
+  expected_output: >
+    A list of dictionaries with decision maker information including: 
+    name, role/title, LinkedIn URL, common email pattern, and any additional relevant data 
+    discovered during the process.
+validate_contacts_task:
+  description: >
+    Validate contact information for decision makers at {company_names}. Ensure accuracy 
+    of names, titles, LinkedIn URLs, and verify email addresses through trusted sources.
+  agent: data_validator
+  expected_output: >
+    A filtered and validated list of contact dictionaries with confirmed names, titles, 
+    LinkedIn URLs, and email addresses.
+
+create_outreach_strategies_task:
+  description: >
+    Create personalized outreach strategies for each verified contact based on their 
+    job role and {company_names} data. Tailor communication tone and hook for high engagement.
+  agent: outreach_strategist
+  expected_output: >
+    A dictionary mapping each verified contact to a personalized outreach strategy including 
+    subject line, tone, opening hook, and value proposition.
