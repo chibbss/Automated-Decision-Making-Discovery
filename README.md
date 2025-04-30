@@ -1,6 +1,7 @@
 # Automated-Decision-Making-Discovery
 
 Agentic AI Challenge Submission: Decision Maker Discovery Automation
+<img width="1335" alt="Screenshot 2025-04-30 at 12 03 12" src="https://github.com/user-attachments/assets/25c87063-6902-4c0a-8e67-11ae4b8a7627" />
 
 💡 Project Title: Agentic Decision Maker Discovery Workflow
 Objective:
